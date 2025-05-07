@@ -1,0 +1,141 @@
+/* Import Font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
+
+/* Global Styles */
+
+li,
+a,
+button {
+  font-weight: 500;
+  font-size: 16px;
+  color: #FFD700;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1140px; /* Design for Website-margin 30 / 12 column////Tablet -margin 120 / 8 column/////Cell 4 column */
+  margin: 0 auto;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 1em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10%;
+  transition: opacity 0.5s ease-in-out;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.logo {
+  cursor: pointer;
+  margin-right: auto;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links,
+li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav-links,
+li,
+a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav-links,
+li,
+a:hover {
+  color: #B68D40;
+}
+
+button {
+  margin-left: 20px;
+  padding: 9px 25px;
+  background-color: #2B506F;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-right: 50px;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: #1B2937;
+}
+
+/* Profile Card */
+
+.profile-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.profileimg {
+  border-radius: 2rem;
+  border: 2px solid #FFD700;
+  background-color: #2B506F;
+  padding: 6px;
+  margin: 1rem;
+}
+
+.profile-cards .card-text {
+  align-content: center;
+  color:#FFD700;
+  
+}
+
+
+/* Paragraph */
+.normal-background {
+  background-image: url(../Assets/images/earth\ horizon.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.jam-background {
+  background: url(../Assets/images/bg_stars.gif);
+  background-size: auto;
+  background-position: center;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+main {
+  margin-top: 300px;
+  font-family: "Montserrat", sans-serif;
+  
+}
+
+/* Footer */
+.footer-text {
+  color: #FFD700;
+  font-family: "Montserrat", sans-serif;
+  position: fixed;
+  bottom: 0;
+  width: 100%;     
+  justify-items: center;   
+  padding: 15px 0;         
+}
